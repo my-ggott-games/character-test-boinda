@@ -2,8 +2,8 @@ function stamp() {
     var stampImg = document.createElement("img");
     stampImg.src = makeStamp();
     stampImg.alt = "보인다 도장";
-    var x = event.pageX + 5;
-    var y = event.pageY + 10;
+    var x = event.pageX;
+    var y = event.pageY;
     stampImg.style.position = "absolute";
     stampImg.style.left = x + "px";
     stampImg.style.top = y + "px";

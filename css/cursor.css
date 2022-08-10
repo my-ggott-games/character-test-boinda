@@ -9,7 +9,7 @@ input[type=checkbox],
 input[type=radio],
 .opt
 {
-    cursor: url(../img/cursor.png) 0 0, auto !important;
+    /*cursor: url(../img/cursor.png) 0 0, auto !important;*/
 }
 
 
@@ -28,7 +28,7 @@ input[type=radio],
 .pull-left,
 .theme_btn_box,
 a, button {
-    cursor: url(../img/cursor_heart.png) 0 0, auto !important;
+    /*cursor: url(../img/cursor_heart.png) 0 0, auto !important;*/
 }
 
 
@@ -41,5 +41,5 @@ span#viewers,
 .fr-box.fr-basic.fr-element,
 input[type='text']
 {
-    cursor: url(../img/cursor_heart.png) 0 0, auto !important;
+    /*cursor: url(../img/cursor_heart.png) 0 0, auto !important;*/
 }
