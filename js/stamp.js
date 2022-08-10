@@ -24,20 +24,20 @@ function makeStamp(){
 
     switch (rand_0_7) {
         case 0:
-            return url + "img/cursor_6nimmnt.png"; // 상대경로로 설정하면 결과.html 과 index.html 일 때의 경로가 달라짐
+            return url + "img/cursor_6nimmt.png"; // 상대경로로 설정하면 결과.html 과 index.html 일 때의 경로가 달라짐
         case 1:
             return url + "img/cursor_hanabi.png";
         case 2:
-            return url + "img/cursor_.png";
+            return url + "img/cursor_rummikub.png";
         case 3:
-            return url + "img/cursor_heart.png";
+            return url + "img/cursor_hwatu.png";
         case 4:
-            return url + "img/cursor_heart.png";
+            return url + "img/cursor_chess.png";
         case 5:
-            return url + "img/cursor_heart.png";
+            return url + "img/cursor_janggi.png";
         case 6:
-            return url + "img/cursor_heart.png";
+            return url + "img/cursor_halligalli.png";
         case 7:
-            return url + "img/cursor_heart.png";
+            return url + "img/cursor_human.png";
     }
 }
