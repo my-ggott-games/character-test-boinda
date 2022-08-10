@@ -1,0 +1,95 @@
+#result{
+  display: none;
+  background-color: var(--배경2);
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult{
+  background-color: var(--배경2);
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultName{
+  font-size: 22px;
+}
+
+.resultDesc{
+  font-size: 18px;
+  white-space: pre-line;
+}
+
+.resultShare{
+  font-size: 18px;
+}
+<!--
+/*#FEE500 #1DA1F2 #4267B2*/
+-->
+.kakao{
+  color: var(--배경2);
+  background-color: transparent;
+  font-size: 20px;
+  border: 0px;
+}
+
+.twitter{
+  color: var(--배경2);
+  background-color: transparent;
+  font-size: 20px;
+  border: 0px;
+}
+
+.facebook{
+  color: var(--배경2);
+  background-color: transparent;
+  font-size: 20px;
+  border: 0px;
+}
+
+.clipboard{
+  font-size: 30px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 15px;
+  transform: scaleY(-1);
+}
+
+.goHome{
+  color: var(--누멍브라운);
+  background-color: var(--배경2);
+  font-size: 20px;
+  border: 3px solid var(--누멍브라운);
+  border-radius: 15px;
+}
+
+.goHome:hover, .goHome:focus {
+  color: var(--배경2);
+  background-color: var(--누멍브라운);
+  border: 3px solid transparent;
+}
+
+.refresh{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  color: var(--누멍브라운);
+  background-color: var(--배경2);
+  font-size: 20px;
+  border: 3px solid var(--누멍브라운);
+  border-radius: 15px;
+}
+
+.refresh:hover, .refresh:focus {
+  color: var(--배경2);
+  background-color: var(--누멍브라운);
+  border: 3px solid transparent;
+}
+
+
+.keepAll {
+  word-break: keep-all;
+}

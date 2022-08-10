@@ -1,0 +1,47 @@
+html {
+    float: none;
+    touch-action: manipulation;
+}
+
+body {
+    background-color: var(--배경2);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: background 1s ease;
+}
+
+img {
+    border-radius: 5px;
+}
+
+* {
+    font-family: 'Gaegu', cursive;
+}
+
+.keepAll {
+    word-break: keep-all;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#stamp {
+    width: 0;
+    height: 0;
+    background-color: var(--누멍브라운);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a, u {
+    text-decoration: none;
+    font-size: 16px;
+}
