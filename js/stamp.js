@@ -38,6 +38,6 @@ function makeStamp(){
         case 6:
             return url + "img/cursor_halligalli.png";
         case 7:
-            return url + "img/cursor_human.png";
+            return url + "img/cursor_meeple.png";
     }
 }
