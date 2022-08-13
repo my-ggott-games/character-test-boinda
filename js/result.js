@@ -111,7 +111,7 @@ function setResult() {
     let linkDiv = document.getElementById('linkDiv');
     let resultLink = document.createElement('a');
     resultLink.setAttribute('href', 'https://pf.kakao.com/_xaewxlxb');
-    resultLink.innerHTML = '이 게임, 같이 해볼래?';
+    resultLink.innerHTML = '보인다 지원하러 가기';
     linkDiv.appendChild(resultLink);      // resultLink 연결
 
     const resultDesc = document.querySelector('.resultDesc');

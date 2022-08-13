@@ -3,7 +3,7 @@
   background-color: var(--배경2);
   width: 90%;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 #shareResult{
@@ -32,43 +32,44 @@
   color: var(--배경2);
   background-color: transparent;
   font-size: 20px;
-  border: 0px;
+  border: 0;
 }
 
 .twitter{
   color: var(--배경2);
   background-color: transparent;
   font-size: 20px;
-  border: 0px;
+  border: 0;
 }
 
 .facebook{
   color: var(--배경2);
   background-color: transparent;
   font-size: 20px;
-  border: 0px;
+  border: 0;
 }
 
 .clipboard{
   font-size: 30px;
   background-color: transparent;
-  border: 0px;
+  border: 0;
   border-radius: 15px;
   transform: scaleY(-1);
+  padding: 0 0 10px 0;
 }
 
 .goHome{
-  color: var(--누멍브라운);
+  color: var(--BOINDA_BLUE);
   background-color: var(--배경2);
   font-size: 20px;
-  border: 3px solid var(--누멍브라운);
-  border-radius: 15px;
+  border: 2px solid var(--BOINDA_BLUE);
+  border-radius: 5px;
 }
 
 .goHome:hover, .goHome:focus {
   color: var(--배경2);
-  background-color: var(--누멍브라운);
-  border: 3px solid transparent;
+  background-color: var(--BOINDA_BLUE);
+  border: 2px solid transparent;
 }
 
 .refresh{
@@ -76,17 +77,17 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  color: var(--누멍브라운);
+  color: var(--BOINDA_BLUE);
   background-color: var(--배경2);
   font-size: 20px;
-  border: 3px solid var(--누멍브라운);
-  border-radius: 15px;
+  border: 2px solid var(--BOINDA_BLUE);
+  border-radius: 5px;
 }
 
 .refresh:hover, .refresh:focus {
   color: var(--배경2);
-  background-color: var(--누멍브라운);
-  border: 3px solid transparent;
+  background-color: var(--BOINDA_BLUE);
+  border: 2px solid transparent;
 }
 
 

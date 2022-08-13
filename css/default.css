@@ -15,7 +15,7 @@ img {
 }
 
 * {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Gowun Dodum', sans-serif;
 }
 
 .keepAll {
@@ -43,5 +43,5 @@ img {
 
 a, u {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }

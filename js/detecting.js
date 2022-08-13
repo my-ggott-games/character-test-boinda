@@ -38,6 +38,6 @@ function getMobileOperatingSystem() {
     }
 
     // maybe PC
-    pleaseUseExternalBrowser.innerHTML = '월월월월월월';
+    pleaseUseExternalBrowser.innerHTML = '';
     return "unknown";
 }

@@ -2,7 +2,7 @@
   background-color: var(--배경2);
   width: 90%;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 p{
@@ -10,16 +10,16 @@ p{
 }
 
 .begin{
-  color: var(--나뭇잎그린);
+  color: var(--BOINDA_BLUE);
   background-color: var(--배경2);
   font-size: 20px;
-  border: 3px solid var(--나뭇잎그린);
-  border-radius: 15px;
+  border: 2px solid var(--BOINDA_BLUE);
+  border-radius: 5px;
 }
 
 .begin:hover, .begin:focus {
   color: var(--배경2);
-  background-color: var(--나뭇잎그린);
+  background-color: var(--BOINDA_BLUE);
   /*border: 3px solid transparent;*/
 }
 
