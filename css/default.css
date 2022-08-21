@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: var(--배경2);
+    background-color: var(--BOINDA_BLUE);
     overflow-x: hidden;
     overflow-y: scroll;
     transition: background 1s ease;

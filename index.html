@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-237064804-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-237064804-1');
@@ -78,7 +82,8 @@
         </div>
 
         <button type="button" class="btn begin mt-3 py-2 px-3"
-                onclick="begin()">시작하기</button>
+                onclick="begin()">시작하기
+        </button>
     </section>
     <section id="qna">
         <div class="progress mx-auto mt-5">
@@ -101,7 +106,17 @@
 
         </div>
         <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+            <table>
+                <tr>
+                    <td><img alt="게임1" src=""/></td>
+                    <td><img alt="게임2" src=""/></td>
+                </tr>
+                <tr>
+                    <td><p>1번 게임 한 줄 요약</p></td>
+                    <td><p>2번 게임 한 줄 요약</p></td>
+                </tr>
 
+            </table>
         </div>
         <div id="linkDiv" class="mx-auto my-3">
             <p>이 게임, 같이 해볼래?</p>
