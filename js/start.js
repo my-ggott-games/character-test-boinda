@@ -84,6 +84,7 @@ function goNext(qIdx) {
     }
     makeQnA(qIdx);      // 답변이 클릭 됐을 때 1이 더해져 다음 질문으로 넘어간다.
     moveProgressBar();
+
 }
 
 function begin() {
