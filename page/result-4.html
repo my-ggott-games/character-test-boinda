@@ -50,17 +50,17 @@
 <div class="content" id="stamp" onmouseup="stamp()"></div>
 <div class="container noSelect">
     <section id="shareResult" class="mx-auto my-5 py-5 px-3" style="word-break:keep-all">
-        <h1>당신의 소울메이트는 바로...</h1>
+        <h1>너... 이런 게임 좋아하니?</h1>
         <div class="resultName">
 
         </div>
         <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
 
         </div>
-        <div id="linkDiv" class="mx-auto my-3">
+        <div class="resultDesc">
 
         </div>
-        <div class="resultDesc">
+        <div id="linkDiv" class="mx-auto my-3">
 
         </div>
         <div id="shareDiv" class="mt-3 mx-auto">
@@ -74,7 +74,7 @@
 
             <p class="resultShare pt-3" id="pleaseWait"></p>
         </div>
-        <button type="button" class="기 mt-3 py-2 px-3" onclick="moveHome()">다시하기</button>
+        <button type="button" class="goHome mt-3 py-2 px-3" onclick="moveHome()">다시하기</button>
     </section>
 
     <script src="../js/background.js" charset="utf-8"></script>
@@ -89,7 +89,7 @@
         resultName.innerHTML = infoList[point].name;
         var resultImg = document.createElement('img');
         const imgDiv = document.querySelector('#resultImg');
-        var imgURL = '../img/image-' + point + '.jpeg';       // image-n.jpeg
+        var imgURL = '../img/image-' + point + '.png';       // image-n.png
         resultImg.src = imgURL;
         resultImg.alt = point;
         resultImg.classList.add('img-fluid');     // image 에 반응성 적용

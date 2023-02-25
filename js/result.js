@@ -102,7 +102,7 @@ function setResult() {
     resultName.innerHTML = infoList[point].name;
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image-' + point + '.jpeg';       // image-n.jpeg
+    var imgURL = 'img/image-' + point + '.png';       // image-n.png
     resultImg.src = imgURL;
     resultImg.alt = point;
     resultImg.classList.add('img-fluid');     // image 에 반응성 적용

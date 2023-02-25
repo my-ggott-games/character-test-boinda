@@ -50,7 +50,7 @@
 <div class="content" id="stamp" onmouseup="stamp()"></div>
 <div class="container noSelect">
     <section id="shareResult" class="mx-auto my-5 py-5 px-3" style="word-break:keep-all">
-        <h1>당신의 소울메이트는 바로...</h1>
+        <h1>너... 이런 게임 좋아하니?</h1>
         <div class="resultName">
 
         </div>
@@ -88,7 +88,7 @@
         resultName.innerHTML = infoList[point].name;
         var resultImg = document.createElement('img');
         const imgDiv = document.querySelector('#resultImg');
-        var imgURL = '../img/image-' + point + '.jpeg';       // image-n.jpeg
+        var imgURL = '../img/image-' + point + '.png';       // image-n.png
         resultImg.src = imgURL;
         resultImg.alt = point;
         resultImg.classList.add('img-fluid');     // image 에 반응성 적용
