@@ -40,7 +40,7 @@ function setTwitterShare(){
   const shareTitle = '너에게 딱 맞는 보드게임을 추천해줄게!';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
 
-  window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareTitle) + "%0a" + encodeURIComponent(infoList[resultAlt].name) +"%0a%0a" +"&url=" + encodeURIComponent(shareURL) + "%0a" +"&hashtags=누멍이_소울메이트_테스트");
+  window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareTitle) + "%0a" + encodeURIComponent(infoList[resultAlt].name) +"%0a%0a" +"&url=" + encodeURIComponent(shareURL) + "%0a" +"&hashtags=보인다_게임추천");
   pleaseWait();
 }
 
