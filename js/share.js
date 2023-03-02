@@ -1,10 +1,10 @@
-const url = 'https://beta-boinda-test.netlify.app/';
+const url = 'https://beta1-boinda-test.netlify.app/';
 
 function setKakaoShare(){
   var resultImg = document.querySelector('#resultImg');
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '너에게 딱 맞는 보드게임을 추천해줄게!';
-  const shareDes = infoList[resultAlt].name;    // ex) "누멍... 누멍!" - 꿀꿀이
+  const shareDes = infoList[resultAlt].name;    // ex) 플레이타임이 긴 보드게임은 지루하다.
   const shareImage = url + 'img/image-' + resultAlt + '.jpeg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
 
@@ -22,7 +22,7 @@ function setKakaoShare(){
 
     buttons: [
       {
-        title: '어떤 친구일까?',
+        title: '어떤 게임일까?',
         link: {
           mobileWebUrl: shareURL,
           webUrl: shareURL,
