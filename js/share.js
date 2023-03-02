@@ -5,7 +5,7 @@ function setKakaoShare(){
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = '너에게 딱 맞는 보드게임을 추천해줄게!';
   const shareDes = infoList[resultAlt].name;    // ex) 플레이타임이 긴 보드게임은 지루하다.
-  const shareImage = url + 'img/image-' + resultAlt + '.jpeg';
+  const shareImage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
