@@ -1,4 +1,4 @@
-const url = 'https://beta1-boinda-test.netlify.app/';
+const url = 'https://boinda-test.netlify.app/';
 
 function setKakaoShare(){
   var resultImg = document.querySelector('#resultImg');
