@@ -1,0 +1,45 @@
+/* 마우스 커서 기본 */
+html,
+body,
+.fr-popup,
+.fr-active div>*,
+.fr-btn-wrap,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt
+{
+    /*cursor: url(../img/cursor.png) 0 0, auto !important;*/
+}
+
+
+/* 마우스 커서 링크 */
+#main
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply > .reply-header > .reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+.theme_btn_box,
+a, button {
+    /*cursor: url(../img/cursor_heart.png) 0 0, auto !important;*/
+}
+
+
+
+
+/* 마우스 커서 텍스트 */
+span#viewers,
+#article-list #boardSearchForm .form-control,
+.fr-view,
+.fr-box.fr-basic.fr-element,
+input[type='text']
+{
+    /*cursor: url(../img/cursor_heart.png) 0 0, auto !important;*/
+}
