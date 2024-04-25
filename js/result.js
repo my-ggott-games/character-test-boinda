@@ -110,9 +110,14 @@ function setResult() {
 
     let linkDiv = document.getElementById('linkDiv');
     let resultLink = document.createElement('a');
-    resultLink.setAttribute('href', 'https://pf.kakao.com/_xaewxlxb');
+    // resultLink.setAttribute('href', 'https://pf.kakao.com/_xaewxlxb');
+    resultLink.setAttribute('href', '#');
     resultLink.innerHTML = '보인다 지원하러 가기';
+    resultLink.addEventListener('click', function() {
+        alert('지원이 마감되었습니다.');
+    });
     linkDiv.appendChild(resultLink);      // resultLink 연결
+
 
     const resultDesc = document.querySelector('.resultDesc');
     resultDesc.innerHTML = infoList[point].desc;
